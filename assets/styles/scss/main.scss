@@ -1,4 +1,5 @@
 @import "global/variables";
+@import "global/media-queries";
 
 body{
     color: $black-gray;
@@ -10,5 +11,23 @@ body{
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: auto;
+    .hero-text{
+        padding-top: 30%;
+        padding-bottom: 20%;
+        color: $white;
+        text-align: center;
+        h1 {
+            font-size: 100px;
+            text-align: center;
+            letter-spacing: 30px;
+            span {
+                margin-left: -25px;
+                letter-spacing: normal;
+                font-size: 50px;
+                font-weight: 100;
+            }
+        }
+        
+    }
 }

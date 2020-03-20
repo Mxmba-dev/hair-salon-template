@@ -1,5 +1,70 @@
+// global from framework
+.container {
+    max-width: 1440px;
+}
+
 //colors
 $white: #fff;
 $black: #000;
 $black-gray: #414141;
 $orange: #FD936B;
+
+// Typography
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -1.1px;
+    line-height: 78px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -1.1px;
+    line-height: 52px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+h5.sub-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p.hero-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
